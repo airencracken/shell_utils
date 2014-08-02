@@ -1,4 +1,3 @@
-#!/bin/bash
 #emulate perl's die
 
 die(){
