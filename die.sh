@@ -5,7 +5,7 @@ die() {
 	default="shit is on fire yo"	
 	message="${1:-$default}"
 	status="${2:-1}"
-	echo $message 1>&2
+	echo "${message}" 1>&2
 	exit ${status};
 }
 
